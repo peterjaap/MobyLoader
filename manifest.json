@@ -1,0 +1,23 @@
+{
+  "name": "MobyLoader for Twitter",
+  "version": "1.0.1",
+  "background_page": "mobyloader.html",
+  "description": "Load Moby pictures in Twitter like YFrog or Instagram",
+  "browser_action": {
+    "name": "MobyLoader",
+    "icons": ["icon.png"],
+    "default_icon": "icon.png",
+    "popup": "mobyloader.html"
+  },
+  "permissions": [
+        "<all_urls>"
+    ],
+  "content_scripts": [
+    {
+      "matches": [ "http://twitter.com/*", "https://twitter.com/*"],
+      "css": ["mobyloader.css"],
+      "js": ["jquery.js", "mobyloader.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

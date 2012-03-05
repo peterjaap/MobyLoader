@@ -1,0 +1,11 @@
+img.mobyPic {
+    width: 425px;
+    border:1px solid #ccc;
+    margin-top:10px;
+}
+body.mobyloader {
+    width:300px;
+    height:100px;
+    font-family:Verdana;
+    font-size:12px;
+}
