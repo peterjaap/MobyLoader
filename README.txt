@@ -8,6 +8,7 @@ USAGE
 Click on a tweet that contains a moby.to link to open the tweet and the picture would load automatically.
 
 CONTACT
+Web: http://blaakmeer.com/mobyloader/
 GitHub: https://github.com/peterjaap/MobyLoader
 Twitter: https://twitter.com/PeterJaap
 Email: peterjaap@blaakmeer.com
